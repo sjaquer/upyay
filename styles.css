@@ -1,0 +1,39 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la imagen de la botella principal */
+.img-botella {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Estilo para la imagen del logo */
+.img-logo {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Estilo para la imagen de la carátula de la botella */
+.img-caratulabotella {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+}
+
+/* Estilos adicionales para el encabezado y el pie de página */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
